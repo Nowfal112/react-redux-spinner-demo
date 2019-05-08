@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  /* animation: App-logo-spin infinite 5s linear; */
   height: 40vmin;
   pointer-events: none;
 }
@@ -21,6 +21,20 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App-button {
+      border: 1px;
+    border-radius: 6px;
+    padding: 7px;
+    background: #31a0c5;
+    font-weight: bolder;
+    color: snow;
+    margin-left: 10px;
+}
+
+.Spin-paused {
+  animation-play-state: paused !important;
 }
 
 @keyframes App-logo-spin {
